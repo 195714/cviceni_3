@@ -9,23 +9,28 @@ VraceniMinci<-function(M) {
     M = M - Mince[1]
     Pocet = Pocet + 1 
   }
-    else{(M>= Mince[2]){
+    else 
+      if (M>= Mince[2]){
       M = M - Mince[2]
       Pocet = Pocet + 1
     }
-      else(M>= Mince[3]){
+      else
+        if(M>= Mince[3]){
         M = M - Mince[3]
         Pocet = Pocet + 1
       } 
-        else(M>= Mince[4]){
+        else
+          if(M>= Mince[4]){
           M = M - Mince[4]
           Pocet = Pocet + 1
         }
-          else(M>= Mince[5]){
+          else
+            if(M>= Mince[5]){
             M = M - Mince[5]
             Pocet = Pocet + 1
           }
-            else(M>= Mince[6]){
+            else
+              if(M>= Mince[6]){
               M = M - Mince[6]
               Pocet = Pocet + 1
             }
@@ -44,6 +49,5 @@ VraceniMinci<-function(M) {
   
   
   
-  
-    }
+
 
